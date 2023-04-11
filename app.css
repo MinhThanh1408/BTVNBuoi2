@@ -1,0 +1,103 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  position: fixed;
+  background-color: aliceblue;
+  width: 100%;
+  list-style: none;
+}
+.navbar-item {
+  padding: 10px;
+}
+.icon {
+  padding: 5px;
+}
+
+.img {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://ngocnam2112.github.io/private/html,%20css/BU%E1%BB%94I_6/hinhnen.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.content {
+  margin: 0 auto;
+  width: 60%;
+  color: rgb(163, 160, 160);
+  font-size: 20px;
+  text-align: center;
+}
+.first-paragraph {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.second-paragraph {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 500px;
+  margin-bottom: 30px;
+}
+
+.second-left {
+  object-fit: cover;
+  width: 45%;
+  height: 100%;
+  border-radius: 50% 50%;
+}
+
+.second-right {
+  width: 45%;
+}
+.third-paragraph {
+  display: flex;
+justify-content: space-between;
+  align-items: center;
+  max-height: 500px;
+  margin-bottom: 30px;
+}
+.third-left {
+  width: 45%;
+}
+
+.third-right {
+  object-fit: cover;
+  width: 45%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 50% 50%;
+}
+.footer {
+  padding: 50px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer h3 {
+  padding: 20px;
+}
+.fa-brands {
+  padding: 10px;
+  font-size: 40px;
+  color: white;
+}
+.fa-brands:hover {
+  color: red;
+}
